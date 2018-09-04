@@ -30,8 +30,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_add_inst"
+        <activity
+            android:name=".Activity_add_inst"
             android:label="Add Institution">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cgc">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
