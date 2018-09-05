@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">sargalayam</string>
+    <string name="app_name1">app name</string>
+    <string name="todo">TODO</string>
 </resources>
