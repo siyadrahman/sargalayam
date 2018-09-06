@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp "
+            android:layout_marginTop=" 16dp"
+            android:text="Add institution" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="add item" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="register candidate" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="register indiv.item" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="register gr.item" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="result individual" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="result group" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="settings" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

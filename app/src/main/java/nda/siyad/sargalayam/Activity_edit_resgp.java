@@ -8,12 +8,12 @@ import java.util.ArrayList;
 
 import ndk.utils.Spinner_Utils;
 
-public class Activity_res_edit_ind extends AppCompatActivity {
+public class Activity_edit_resgp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_res_edit_ind);
+        setContentView(R.layout.activity_edit_resgp);
 
         setContentView(R.layout.activity_result_individual);
         Spinner s3 = findViewById(R.id.spinner4);

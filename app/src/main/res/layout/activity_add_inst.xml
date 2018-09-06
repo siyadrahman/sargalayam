@@ -15,11 +15,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Spinner
-                android:id="@+id/spinner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -40,17 +35,50 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginLeft=" 16dp"
+                    android:layout_marginRight=" 8dp"
+                    android:layout_marginTop=" 16dp"
+                    android:layout_weight="1"
+                    android:text="ch.no.range"
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft=" 8dp"
+                    android:layout_marginRight=" 16dp"
+                    android:layout_marginTop="16dp"
                     android:layout_weight="1"
-                    android:text="TextView" />
+                    android:text="101-199"
+                    android:textSize="18sp" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 16dp"
+                android:text="submit"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:text="reset"
+                android:textSize="18sp" />
 
         </LinearLayout>
     </ScrollView>

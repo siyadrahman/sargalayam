@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_res_edit_ind">
+    tools:context=".Activity_reg_gpitem">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +21,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
@@ -31,47 +29,31 @@
                     android:layout_marginRight=" 8dp"
                     android:layout_marginTop=" 16dp"
                     android:layout_weight="1"
-                    android:text="Item"
+                    android:text="item"
                     android:textSize="18sp" />
 
                 <Spinner
-                    android:id="@+id/spinner4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom=" 8dp"
-                    android:layout_marginLeft=" 8dp"
-                    android:layout_marginRight=" 16dp"
-                    android:layout_marginTop=" 16dp"
-                    android:layout_weight="1" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft=" 16dp"
-                    android:layout_marginRight=" 8dp "
-                    android:layout_marginTop=" 8dp"
-                    android:layout_weight="1"
-                    android:text="1st"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinner5"
+                    android:id="@+id/spinner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp "
                     android:layout_marginLeft=" 8dp"
                     android:layout_marginRight=" 16dp"
-                    android:layout_marginTop=" 8dp"
+                    android:layout_marginTop=" 16dp"
                     android:layout_weight="1" />
+
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:text="no.of mem          4"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,7 +61,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
@@ -87,11 +69,108 @@
                     android:layout_marginRight=" 8dp"
                     android:layout_marginTop=" 8dp"
                     android:layout_weight="1"
-                    android:text="2nd"
+                    android:text="institution"
                     android:textSize="18sp" />
 
                 <Spinner
-                    android:id="@+id/spinner6"
+                    android:id="@+id/spinner9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft=" 8dp"
+                    android:layout_marginRight=" 16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8sp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:text="Chest letter A"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginLeft=" 16dp"
+                    android:layout_marginRight=" 8dp"
+                    android:layout_marginTop=" 8dp"
+                    android:layout_weight="1"
+                    android:text="Me1"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft=" 8dp"
+                    android:layout_marginRight=" 16dp"
+                    android:layout_marginTop=" 8dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft=" 16dp"
+                    android:layout_marginRight=" 8dp"
+                    android:layout_marginTop=" 8dp"
+                    android:layout_weight="1"
+                    android:text="Me 2"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginLeft=" 8dp"
+                    android:layout_marginRight=" 16dp"
+                    android:layout_marginTop=" 8dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginLeft=" 16dp"
+                    android:layout_marginRight=" 8dp"
+                    android:layout_marginTop=" 8dp"
+                    android:layout_weight="1"
+                    android:text="Me 3"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
@@ -107,22 +186,22 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
                     android:layout_marginLeft=" 16dp"
-                    android:layout_marginRight=" 8dp "
+                    android:layout_marginRight=" 8dp"
                     android:layout_marginTop=" 8dp"
                     android:layout_weight="1"
-                    android:text="3rd"
+                    android:text="Me4"
                     android:textSize="18sp" />
 
                 <Spinner
-                    android:id="@+id/spinner7"
+                    android:id="@+id/spinner13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginLeft=" 8dp"
                     android:layout_marginRight=" 16dp"
                     android:layout_marginTop=" 8dp"
@@ -130,26 +209,28 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom=" 8dp"
                 android:layout_marginLeft=" 16dp"
                 android:layout_marginRight=" 16dp"
-                android:layout_marginTop=" 24dp"
-                android:text="Submit"
+                android:layout_marginTop=" 8dp"
+                android:text="submit"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom=" 16dp"
+                android:layout_marginBottom="8dp"
                 android:layout_marginLeft=" 16dp"
                 android:layout_marginRight=" 16dp"
                 android:layout_marginTop=" 8dp"
-                android:text="Reset"
+                android:text="reset"
                 android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

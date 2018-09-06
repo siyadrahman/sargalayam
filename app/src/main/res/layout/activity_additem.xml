@@ -4,26 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_res_edit_ind">
+    tools:context=".Activity_additem">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteY="106dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom=" 8dp"
+                    android:layout_marginLeft=" 16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="Name"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
@@ -31,11 +46,11 @@
                     android:layout_marginRight=" 8dp"
                     android:layout_marginTop=" 16dp"
                     android:layout_weight="1"
-                    android:text="Item"
+                    android:text="type"
                     android:textSize="18sp" />
 
                 <Spinner
-                    android:id="@+id/spinner4"
+                    android:id="@+id/spinner8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
@@ -43,113 +58,66 @@
                     android:layout_marginRight=" 16dp"
                     android:layout_marginTop=" 16dp"
                     android:layout_weight="1" />
+
             </LinearLayout>
 
-            <LinearLayout
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_weight="1">
 
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft=" 16dp"
-                    android:layout_marginRight=" 8dp "
-                    android:layout_marginTop=" 8dp"
-                    android:layout_weight="1"
-                    android:text="1st"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinner5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom=" 8dp "
-                    android:layout_marginLeft=" 8dp"
-                    android:layout_marginRight=" 16dp"
-                    android:layout_marginTop=" 8dp"
-                    android:layout_weight="1" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView8"
+                <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
                     android:layout_marginLeft=" 16dp"
-                    android:layout_marginRight=" 8dp"
-                    android:layout_marginTop=" 8dp"
-                    android:layout_weight="1"
-                    android:text="2nd"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinner6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom=" 8dp"
-                    android:layout_marginLeft=" 8dp"
                     android:layout_marginRight=" 16dp"
                     android:layout_marginTop=" 8dp"
-                    android:layout_weight="1" />
-            </LinearLayout>
+                    android:hint="No.of.Mem"
+                    android:inputType="text" />
 
-            <LinearLayout
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/textView9"
+                <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom=" 8dp"
                     android:layout_marginLeft=" 16dp"
-                    android:layout_marginRight=" 8dp "
-                    android:layout_marginTop=" 8dp"
-                    android:layout_weight="1"
-                    android:text="3rd"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinner7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom=" 8dp"
-                    android:layout_marginLeft=" 8dp"
                     android:layout_marginRight=" 16dp"
                     android:layout_marginTop=" 8dp"
-                    android:layout_weight="1" />
-            </LinearLayout>
+                    android:hint="Gr.ins"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom=" 8dp"
                 android:layout_marginLeft=" 16dp"
                 android:layout_marginRight=" 16dp"
-                android:layout_marginTop=" 24dp"
-                android:text="Submit"
+                android:layout_marginTop=" 8dp"
+                android:layout_weight="1"
+                android:text="submit"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom=" 16dp"
                 android:layout_marginLeft=" 16dp"
                 android:layout_marginRight=" 16dp"
                 android:layout_marginTop=" 8dp"
-                android:text="Reset"
+                android:text="reset"
                 android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
