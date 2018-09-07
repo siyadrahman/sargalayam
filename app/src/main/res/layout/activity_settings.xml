@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop=" 16dp"
+            android:text="ind.points"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="1st" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="2nd" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="3rd" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=" 8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop="8dp"
+            android:text="group.point"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="1st" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="2nd" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="3rd" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom=" 8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="Gr/ind itm" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint="Max.gp items" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft=" 16dp"
+                android:layout_marginRight=" 16dp"
+                android:layout_marginTop=" 8dp"
+                android:hint=" Max.ind.itm" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="submit" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft=" 16dp"
+            android:layout_marginRight=" 16dp"
+            android:layout_marginTop=" 8dp"
+            android:text="reset" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
