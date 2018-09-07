@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_main_menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin=" 8dp"
+            android:text="institutions" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin=" 8dp"
+            android:text="items" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="candidates" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="results" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin=" 8dp"
+            android:text="pt.table-full" />
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="pt.table-institution" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="pt.table-candidate" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="about us" />
+
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="exit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
